@@ -1,0 +1,199 @@
+2024-06-11 10:40:46,401 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 31808 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 10:40:46,410 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 10:40:47,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 10:40:47,831 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2024-06-11 10:40:50,548 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-11 10:40:50,561 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:40:50,567 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 10:40:50,568 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 10:40:50,811 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 10:40:50,812 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4315 ms
+2024-06-11 10:40:51,316 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 10:40:51,401 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 10:40:51,743 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 10:40:53,278 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 10:40:54,535 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 10:40:54,550 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:40:55,133 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 10:40:55,739 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:40:55,749 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2024-06-11 10:40:55,751 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:40:55,756 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:40:55,757 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-11 10:40:55,763 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:40:55,764 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:40:55,773 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-06-11 10:40:55,807 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-11 10:41:21,973 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 3484 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 10:41:21,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 10:41:25,553 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 10:41:25,627 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-06-11 10:41:27,712 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-11 10:41:27,719 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:41:27,723 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 10:41:27,724 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 10:41:27,876 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 10:41:27,876 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5436 ms
+2024-06-11 10:41:28,059 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 10:41:28,102 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 10:41:28,222 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 10:41:30,038 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 10:41:30,980 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 10:41:30,990 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:41:31,318 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 10:41:31,696 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:41:31,703 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2024-06-11 10:41:31,706 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:41:31,709 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:41:31,710 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-11 10:41:31,731 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:41:31,731 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2024-06-11 10:41:31,742 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-06-11 10:41:31,754 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-11 10:42:50,477 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 12860 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 10:42:50,483 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 10:42:51,257 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 10:42:51,317 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2024-06-11 10:42:53,425 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2024-06-11 10:42:53,433 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-11 10:42:53,436 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 10:42:53,437 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 10:42:53,587 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 10:42:53,587 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3058 ms
+2024-06-11 10:42:53,811 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 10:42:53,862 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 10:42:54,013 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 10:42:55,933 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 10:42:57,056 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 10:42:57,065 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:42:57,533 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 10:42:58,051 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-11 10:42:58,088 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-11 10:42:58,104 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 8.103 seconds (JVM running for 8.648)
+2024-06-11 10:46:35,759 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11 10:46:35,760 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-11 10:46:35,761 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2024-06-11 10:51:31,803 ERROR com.kw.myproject.controller.ProductController [http-nio-8081-exec-1] For input string: ":id"
+2024-06-11 10:52:58,222 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:53:45,997 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 27052 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 10:53:46,002 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 10:53:46,796 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 10:53:46,856 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2024-06-11 10:53:48,674 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2024-06-11 10:53:48,680 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-11 10:53:48,683 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 10:53:48,684 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 10:53:48,805 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 10:53:48,806 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2749 ms
+2024-06-11 10:53:48,986 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 10:53:49,023 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 10:53:49,136 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 10:53:50,568 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 10:53:51,321 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 10:53:51,327 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 10:53:51,538 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 10:53:51,753 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-11 10:53:51,765 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-11 10:53:51,773 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 6.237 seconds (JVM running for 6.7)
+2024-06-11 10:54:30,863 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11 10:54:30,863 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-11 10:54:30,865 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2024-06-11 10:58:33,823 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 11:00:09,596 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 14004 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 11:00:09,603 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 11:00:11,051 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 11:00:11,163 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2024-06-11 11:00:14,861 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2024-06-11 11:00:14,872 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-11 11:00:14,877 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 11:00:14,878 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 11:00:15,094 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 11:00:15,095 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5407 ms
+2024-06-11 11:00:15,480 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 11:00:15,590 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 11:00:15,937 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 11:00:18,430 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 11:00:19,923 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 11:00:19,949 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 11:00:20,686 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 11:00:21,716 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-11 11:00:21,807 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-11 11:00:21,846 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 13.034 seconds (JVM running for 13.831)
+2024-06-11 11:00:38,221 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11 11:00:38,223 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-11 11:00:38,225 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2024-06-11 11:05:48,799 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 15:50:42,741 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 19952 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 15:50:42,748 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 15:50:43,748 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 15:50:43,819 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2024-06-11 15:50:46,284 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2024-06-11 15:50:46,293 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-11 15:50:46,297 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 15:50:46,297 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 15:50:46,456 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 15:50:46,456 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3622 ms
+2024-06-11 15:50:46,777 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 15:50:46,821 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 15:50:47,024 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 15:50:49,402 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 15:50:50,686 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 15:50:50,699 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 15:50:51,182 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 15:50:51,801 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-11 15:50:51,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-11 15:50:51,856 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 9.956 seconds (JVM running for 10.768)
+2024-06-11 15:50:55,720 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 15:56:06,531 INFO org.springframework.boot.StartupInfoLogger [main] Starting MyprojectApplication using Java 1.8.0_201 on DESKTOP-45A4O3Q with PID 18004 (C:\git\myproject\target\classes started by darre in C:\git\myproject)
+2024-06-11 15:56:06,537 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 15:56:07,595 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 15:56:07,663 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2024-06-11 15:56:11,270 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2024-06-11 15:56:11,280 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-11 15:56:11,285 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-11 15:56:11,286 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.79]
+2024-06-11 15:56:11,459 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 15:56:11,460 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4841 ms
+2024-06-11 15:56:11,818 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 15:56:11,882 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-11 15:56:12,096 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-11 15:56:13,840 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2024-06-11 15:56:15,231 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-11 15:56:15,245 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 15:56:15,647 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 15:56:15,996 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-11 15:56:16,010 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-11 15:56:16,017 INFO org.springframework.boot.StartupInfoLogger [main] Started MyprojectApplication in 10.28 seconds (JVM running for 10.862)
+2024-06-11 15:56:30,904 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11 15:56:30,905 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Initializing Servlet 'dispatcherServlet'
+2024-06-11 15:56:30,907 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-4] Completed initialization in 1 ms
